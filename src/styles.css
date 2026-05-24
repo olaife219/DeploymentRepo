@@ -110,6 +110,23 @@ textarea:focus {
   gap: 10px;
 }
 
+.admin-actions,
+.admin-review-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.admin-review-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
 .secondary-button {
   padding: 10px 14px;
   border-radius: 12px;
